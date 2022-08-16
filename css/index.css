@@ -1,0 +1,97 @@
+body {
+    background-color: black;
+}
+
+#home #app {
+    min-height: 100%;
+    margin: 0 auto -130px;
+    position: relative;
+}
+
+#home-box {
+    width: 340px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 100px;
+    padding-top: 150px;
+}
+
+#home-box img {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+#home-box .btn {
+    margin: 0 auto;
+    padding: 0;
+    text-align: left;
+}
+
+#home .btn span {
+    font-size: 13px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 30px;
+}
+
+@media(max-height:700px) {
+    #home-box {
+        padding-top: 5em;
+    }
+}
+
+#app {
+    min-height: calc(100% - 30px);
+    margin: 0 auto 0;
+}
+
+#home-text-center {
+    font-family: 'Alumni Sans Inline One', cursive;
+    font-size: 3em;
+    line-height: 2em;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.home-explore {
+    display: block;
+    margin-top: 28px;
+    color: #a09f9d;
+    line-height: 32px;
+}
+
+.btn-fa {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn-fa .fa-solid,
+.btn-fa .fa-brands {
+    display: block;
+    width: 40px;
+    text-align: center;
+    line-height: 36px;
+    float: left;
+}
+
+.btn-light:hover {
+    color: #ffffff;
+    background-color: #0088cc;
+    border-color: #0088cc;
+}
+
+.btn>span {
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btn-fa a {
+    width: 15em;
+}
