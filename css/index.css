@@ -34,12 +34,12 @@ body {
     display: inline-block;
     margin-left: 20px;
     margin-right: 20px;
-    line-height: 30px;
+    line-height: 37px;
 }
 
 @media(max-height:700px) {
     #home-box {
-        padding-top: 5em;
+        padding-top: 2.8em;
     }
 }
 
