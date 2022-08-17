@@ -2,7 +2,7 @@ body {
     background-color: black;
 }
 
-#home #app {
+#container #app {
     min-height: 100%;
     margin: 0 auto -130px;
     position: relative;
@@ -29,7 +29,7 @@ body {
     text-align: left;
 }
 
-#home .btn span {
+#container .btn span {
     font-size: 13px;
     display: inline-block;
     margin-left: 20px;
@@ -41,11 +41,6 @@ body {
     #home-box {
         padding-top: 2.8em;
     }
-}
-
-#app {
-    min-height: calc(100% - 30px);
-    margin: 0 auto 0;
 }
 
 #home-text-center {

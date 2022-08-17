@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+}
+
+#container {
+    min-height: 100%;
+    margin: 0 auto -130px;
+    position: relative;
+}
+
+#home-box {
+    width: 340px;
+    height: 100vh;
+    margin: 0 auto;
+    padding-bottom: 100px;
+    padding-top: 150px;
+    background-color: white;
+}
+
+#home-center {
+    line-height: 2em;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#home-bottom {
+    position: relative;
+    margin-top: 330px;
+}
