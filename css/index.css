@@ -51,6 +51,10 @@ body {
     color: white;
 }
 
+#home-text-center img {
+    width: 280px;
+}
+
 .home-explore {
     display: block;
     margin-top: 28px;
